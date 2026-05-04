@@ -13,7 +13,7 @@ import { corepack, pullLatestCorepack } from "./utils/corepack.mjs";
 import { resolveRepoRoot } from "./utils/git.mjs";
 import { findNPMPackage, loadJSON, npm } from "./utils/node.mjs";
 
-const FALLBACK_NPM_VERSION = "11.11.0";
+const FALLBACK_NPM_VERSION = "11.13.0";
 const logger = ConsoleLogger.prefix("setup-corepack");
 
 async function main() {
